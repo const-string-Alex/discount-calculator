@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+/* section: extension-container */
+.extension-container {
+    padding: 1rem;
+    width: fit-content;
+    background-color: #e5e5e5;
+}
+
+/* form */
+.extension-form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+
+.input {
+    width: 75px;
+    padding: 2px 4px;
+}
+
+.submit-btn {
+    cursor: pointer;
+    padding: 3px 12px;
+    background-color: #588157;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #fff;
+    color: #588157;
+}
+
+/* unordered list */
+.output-list {
+    list-style: none;
+}
