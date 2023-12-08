@@ -15,16 +15,19 @@
 </head>
 <body>
     <section class="extension-container">
-        <form action="#" class="extension-form">
-            <input type="number" class="input">
+        <form action="#" class="extension-form" id="calculator-form">
+            <input type="number" class="input" id="percent">
             <p>percent of</p>
-            <input type="number" class="input">
-            <button type="submit" class="submit-btn">Submit</button>
+            <input type="number" class="input" id="price">
+            <button type="submit" class="btn submit-btn" id="submit-btn">Submit</button>
         </form>
         <ul class="output-list">
-            <li>After discount: $---</li>
-            <li>Savings: $---</li>
+            <li>After discount: <span id="discount-result">---</span></li>
+            <li>Savings: <span id="savings-result">---</span></li>
         </ul>
+        <button class="btn clear-btn" id="clear-btn">Clear</button>
     </section>
+
+    <script src="js/calculator.js"></script>
 </body>
 </html>

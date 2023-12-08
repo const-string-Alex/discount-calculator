@@ -17,7 +17,6 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-bottom: 1rem;
 }
 
 .input {
@@ -25,14 +24,17 @@
     padding: 2px 4px;
 }
 
-.submit-btn {
+.btn {
     cursor: pointer;
     padding: 3px 12px;
-    background-color: #588157;
     color: #fff;
     border: none;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.submit-btn {
+    background-color: #588157;
 }
 
 .submit-btn:hover {
@@ -40,7 +42,23 @@
     color: #588157;
 }
 
+.clear-btn {
+    background-color: #c1121f;
+}
+
+.clear-btn:hover {
+    background-color: #fff;
+    color: #c1121f;
+}
+
 /* unordered list */
 .output-list {
     list-style: none;
+    margin: 1rem 0;
+}
+
+.green {
+    color: #3f7d20;
+    font-weight: 700;
+    /* font-weight: bold; */
 }
